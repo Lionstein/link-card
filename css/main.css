@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #dcd4cd;
+  border-radius: 8px;
+  color: #512200;
+  text-decoration: none;
+}
+
+h2 {
+
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+  color: #512200;
+}
